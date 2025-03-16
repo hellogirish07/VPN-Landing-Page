@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #0d0d0d;
+    color: #00ff00;
+}
+
+a {
+    color: #00ff00;
+}
+
+.bg-dark {
+    background-color: #1a1a1a;
+}
+
+.bg-neon {
+    background-color: #00ff00;
+}
+
+.text-neon {
+    color: #00ff00;
+}
+
+.text-black-900 {
+    color: #000000;
+}
+
+.shadow-neon {
+    box-shadow: 0 0 10px #00ff00;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu.active {
+    display: block;
+}
+
+.border-neon {
+    border-color: #00ff00;
+}
+
+input,
+textarea {
+    outline: none;
+    border: 1px solid #00ff00;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #00ff00;
+    box-shadow: 0 0 5px #00ff00;
+}
+
+#home i {
+    font-size: 10rem;
+}
+
+#pricing a, button, #newsletter button, #home a {
+    background-color: #00ff00;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#pricing a:hover, button:hover, #newsletter button:hover, #home a:hover {
+    background-color: #000000;
+    color: #00ff00;
+}
+

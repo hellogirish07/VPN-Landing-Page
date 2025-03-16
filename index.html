@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loss Less VPN</title>
+    <link rel="stylesheet" href="input.css" class="css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <header class="bg-dark shadow-neon sticky-header fixed top-0 left-0 right-0 z-10">
+        <div class="container mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex justify-between items-center w-full md:w-auto">
+                <h1 class="text-2xl font-bold text-neon">Loss Less VPN</h1>
+                <button id="menu-toggle" class="md:hidden text-neon hover:text-white focus:outline-none" aria-label="Toggle navigation menu">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            <nav class="mobile-menu md:block mt-4 md:mt-0">
+                <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 items-center">
+                    <li class="w-full md:w-auto"><a href="#home" class="block py-2 px-4 w-full md:w-auto text-center hover:text-white hover:bg-neon md:hover:bg-transparent transition-colors duration-300">Home</a></li>
+                    <li class="w-full md:w-auto"><a href="#features" class="block py-2 px-4 w-full md:w-auto text-center hover:text-white hover:bg-neon md:hover:bg-transparent transition-colors duration-300">Features</a></li>
+                    <li class="w-full md:w-auto"><a href="#pricing" class="block py-2 px-4 w-full md:w-auto text-center hover:text-white hover:bg-neon md:hover:bg-transparent transition-colors duration-300">Pricing</a></li>
+                    <li class="w-full md:w-auto"><a href="#contact" class="block py-2 px-4 w-full md:w-auto text-center hover:text-white hover:bg-neon md:hover:bg-transparent transition-colors duration-300">Contact</a></li>
+                    <li class="w-full md:w-auto"><a href="#newsletter" class="block py-2 px-4 w-full md:w-auto text-center hover:text-white hover:bg-neon md:hover:bg-transparent transition-colors duration-300">Newsletter</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section class="bg-dark text-neon py-10 md:py-20" id="home">
+            <div class="container mx-auto px-4 text-center min-h-screen flex flex-col items-center justify-center">
+                <div class="bg-dark p-4 md:p-6 rounded-full inline-block mb-4 shadow-neon">
+                    <i class="fas fa-shield-alt text-8xl md:text-5xl text-neon"></i>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Secure Your Internet with Loss Less VPN</h2>
+                <p class="text-base md:text-lg mb-8">Fast, secure, and reliable VPN service for all your devices.</p>
+                <a href="#" class="bg-neon text-black-900 px-4 md:px-6 py-2 md:py-3 rounded-lg font-semibold shadow-neon hover:shadow-neon-lg transition-shadow duration-300">Get Started</a>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="py-10 md:py-20" id="features">
+            <div class="container mx-auto px-4">
+                <h3 class="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12">Features</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="bg-dark p-4 md:p-6 rounded-full inline-block mb-4 shadow-neon">
+                            <i class="fas fa-bolt text-4xl md:text-5xl text-neon"></i>
+                        </div>
+                        <h4 class="text-lg md:text-xl font-semibold mb-2">High Speed</h4>
+                        <p class="text-neon">Experience lightning-fast internet speeds with our VPN.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-dark p-4 md:p-6 rounded-full inline-block mb-4 shadow-neon">
+                            <i class="fas fa-shield-alt text-4xl md:text-5xl text-neon"></i>
+                        </div>
+                        <h4 class="text-lg md:text-xl font-semibold mb-2">Secure Connection</h4>
+                        <p class="text-neon">Keep your data safe with our top-notch security features.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-dark p-4 md:p-6 rounded-full inline-block mb-4 shadow-neon">
+                            <i class="fas fa-globe text-4xl md:text-5xl text-neon"></i>
+                        </div>
+                        <h4 class="text-lg md:text-xl font-semibold mb-2">Global Access</h4>
+                        <p class="text-neon">Access content from anywhere in the world.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- More Features Section -->
+        <section class="py-10 md:py-20 bg-dark" id="more-features">
+            <div class="container mx-auto px-4">
+                <!-- <h3 class="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12 text-neon">More Features</h3> -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="bg-dark p-4 md:p-6 rounded-full inline-block mb-4 shadow-neon">
+                            <i class="fas fa-infinity text-4xl md:text-5xl text-neon"></i>
+                        </div>
+                        <h4 class="text-lg md:text-xl font-semibold mb-2">Unlimited Bandwidth</h4>
+                        <p class="text-neon">Enjoy unlimited data usage with no restrictions.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-dark p-4 md:p-6 rounded-full inline-block mb-4 shadow-neon">
+                            <i class="fas fa-headset text-4xl md:text-5xl text-neon"></i>
+                        </div>
+                        <h4 class="text-lg md:text-xl font-semibold mb-2">24/7 Support</h4>
+                        <p class="text-neon">Get help anytime with our round-the-clock support team.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-dark p-4 md:p-6 rounded-full inline-block mb-4 shadow-neon">
+                            <i class="fas fa-plug text-4xl md:text-5xl text-neon"></i>
+                        </div>
+                        <h4 class="text-lg md:text-xl font-semibold mb-2">Easy Setup</h4>
+                        <p class="text-neon">Quick and easy setup with our user-friendly interface.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="py-10 md:py-20" id="testimonials">
+            <div class="container mx-auto px-4">
+                <h3 class="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12 text-neon">Testimonials</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-dark p-4 md:p-6 rounded-lg shadow-neon">
+                        <p class="text-neon mb-4">"Loss Less VPN has transformed the way I browse the internet. It's fast and secure!"</p>
+                        <p class="font-bold">- John Doe</p>
+                    </div>
+                    <div class="bg-dark p-4 md:p-6 rounded-lg shadow-neon">
+                        <p class="text-neon mb-4">"I love the global access feature. I can watch my favorite shows from anywhere!"</p>
+                        <p class="font-bold">- Jane Smith</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="py-10 md:py-20 bg-dark" id="pricing">
+            <div class="container mx-auto px-4">
+                <h3 class="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12 text-neon">Pricing</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-dark p-4 md:p-6 rounded-lg shadow-neon text-center">
+                        <h4 class="text-lg md:text-xl font-bold mb-4">Basic Plan</h4>
+                        <p class="text-neon mb-4">$9.99/month</p>
+                        <ul class="text-neon mb-6">
+                            <li>High Speed</li>
+                            <li>Secure Connection</li>
+                            <li>Global Access</li>
+                        </ul>
+                        <a href="#" class="bg-neon text-black-900 px-4 md:px-6 py-2 md:py-3 rounded-lg font-semibold shadow-neon hover:shadow-neon-lg transition-shadow duration-300">Choose Plan</a>
+                    </div>
+                    <div class="bg-dark p-4 md:p-6 rounded-lg shadow-neon text-center">
+                        <h4 class="text-lg md:text-xl font-bold mb-4">Pro Plan</h4>
+                        <p class="text-neon mb-4">$19.99/month</p>
+                        <ul class="text-neon mb-6">
+                            <li>All Basic Features</li>
+                            <li>Unlimited Bandwidth</li>
+                            <li>24/7 Support</li>
+                        </ul>
+                        <a href="#" class="bg-neon text-black-900 px-4 md:px-6 py-2 md:py-3 rounded-lg font-semibold shadow-neon hover:shadow-neon-lg transition-shadow duration-300">Choose Plan</a>
+                    </div>
+                    <div class="bg-dark p-4 md:p-6 rounded-lg shadow-neon text-center">
+                        <h4 class="text-lg md:text-xl font-bold mb-4">Premium Plan</h4>
+                        <p class="text-neon mb-4">$29.99/month</p>
+                        <ul class="text-neon mb-6">
+                            <li>All Pro Features</li>
+                            <li>Priority Support</li>
+                            <li>Easy Setup</li>
+                        </ul>
+                        <a href="#" class="bg-neon text-black-900 px-4 md:px-6 py-2 md:py-3 rounded-lg font-semibold shadow-neon hover:shadow-neon-lg transition-shadow duration-300">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="py-10 md:py-20" id="contact">
+            <div class="container mx-auto px-4">
+                <h3 class="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12 text-neon">Contact Us</h3>
+                <div class="max-w-2xl mx-auto">
+                    <form class="bg-dark p-6 md:p-8 rounded-lg shadow-neon">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                            <div>
+                                <label for="name" class="block text-neon mb-2">Name</label>
+                                <input type="text" id="name" name="name" class="w-full px-4 py-2 bg-dark border border-neon rounded-lg text-neon focus:outline-none focus:ring-2 focus:ring-neon" required>
+                            </div>
+                            <div>
+                                <label for="email" class="block text-neon mb-2">Email</label>
+                                <input type="email" id="email" name="email" class="w-full px-4 py-2 bg-dark border border-neon rounded-lg text-neon focus:outline-none focus:ring-2 focus:ring-neon" required>
+                            </div>
+                        </div>
+                        <div class="mb-6">
+                            <label for="subject" class="block text-neon mb-2">Subject</label>
+                            <input type="text" id="subject" name="subject" class="w-full px-4 py-2 bg-dark border border-neon rounded-lg text-neon focus:outline-none focus:ring-2 focus:ring-neon" required>
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-neon mb-2">Message</label>
+                            <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 bg-dark border border-neon rounded-lg text-neon focus:outline-none focus:ring-2 focus:ring-neon" required></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-neon text-black-900 px-6 py-3 rounded-lg font-semibold shadow-neon hover:shadow-neon-lg ">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="py-10 md:py-20 bg-dark" id="newsletter">
+            <div class="container mx-auto px-4">
+                <div class="max-w-3xl mx-auto text-center">
+                    <h3 class="text-2xl md:text-3xl font-bold mb-4 text-neon">Subscribe to Our Newsletter</h3>
+                    <p class="text-neon mb-8">Stay updated with the latest news, features, and exclusive offers from Loss Less VPN.</p>
+                    <form class="flex flex-col md:flex-row gap-4 justify-center">
+                        <input type="email" placeholder="Enter your email" class="flex-1 max-w-md px-4 py-3 bg-dark border border-neon rounded-lg text-neon focus:outline-none focus:ring-2 focus:ring-neon" required>
+                        <button type="submit" class="bg-neon text-black-900 px-8 py-3 rounded-lg font-semibold shadow-neon hover:shadow-neon-lg transition-shadow duration-300">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-neon py-6 shadow-neon">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Loss Less VPN. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="#" class="hover:text-white">Facebook</a>
+                <a href="#" class="hover:text-white">Twitter</a>
+                <a href="#" class="hover:text-white">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.querySelector('.mobile-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
