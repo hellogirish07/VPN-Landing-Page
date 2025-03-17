@@ -60,6 +60,10 @@ textarea:focus {
     font-size: 10rem;
 }
 
+#blog-home .fa-blog {
+    font-size: 7rem;
+}
+
 #pricing a, button, #newsletter button, #home a {
     background-color: #00ff00;
     color: #000000;
